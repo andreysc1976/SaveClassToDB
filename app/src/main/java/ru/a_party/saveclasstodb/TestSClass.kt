@@ -3,6 +3,8 @@ package ru.a_party.saveclasstodb
 import java.util.*
 import kotlinx.serialization.Serializable
 
+
+//Тествоый класс для сохранения в базе данных
 @Serializable
 class TestSClass {
     var property_a:Int = 0
@@ -11,7 +13,7 @@ class TestSClass {
         }
         get() = this.property_a
 
-    var listElem: LinkedList<SecondSClass> = LinkedList<SecondSClass>()
+    var listElem: LinkedList<SecondSClass> = LinkedList<SecondSClass>() //список со вложенными классами, тоже сериализуемые
         set(value){
             field = value
         }
