@@ -14,6 +14,4 @@ interface FormulaDao {
     @Query("Select * from FormulaEntity")
     fun getAll():List<FormulaEntity>
 
-    @Query("Select * from FormulaEntity where id=:id")
-    fun getFormulaEntityById(id:Int):List<FormulaEntity>
 }

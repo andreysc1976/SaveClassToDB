@@ -3,9 +3,6 @@ package ru.a_party.saveclasstodb.room
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-
-
-
 @Entity(tableName = "FormulaEntity")
 class FormulaEntity(
     @PrimaryKey
