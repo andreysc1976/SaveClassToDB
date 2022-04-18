@@ -1,4 +1,4 @@
-package ru.a_party.saveclasstodb
+package ru.a_party.saveclasstodb.room
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

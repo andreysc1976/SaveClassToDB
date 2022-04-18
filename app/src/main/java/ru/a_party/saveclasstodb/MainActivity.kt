@@ -5,8 +5,8 @@ import android.os.Bundle
 import android.util.Log
 import androidx.room.Room
 import com.google.gson.Gson
-import kotlinx.serialization.json.Json
-import java.security.AccessController.getContext
+import ru.a_party.saveclasstodb.room.FormulaDatabase
+import ru.a_party.saveclasstodb.room.FormulaEntity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
