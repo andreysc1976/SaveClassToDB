@@ -11,7 +11,7 @@ interface FormulaDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(formulaEntity: FormulaEntity)
 
-    @Query("Select * from FormulaEntity")
+    @Query("Select * from FormulaEntity") //ff
     fun getAll():List<FormulaEntity>
 
 }
